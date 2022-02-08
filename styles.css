@@ -1,2 +1,86 @@
 
 
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: #e2d2e187;
+}
+
+.buscador {
+    
+    background-color: gray;
+    border: 15px solid rgba(231, 231, 231, 0.356);
+    margin: 15px;
+
+}
+
+.menu {
+   
+    width: 100%;
+    
+    margin: 15px;
+    background-color: gray;
+    border: 8px solid gray;
+}
+
+ 
+ul {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+
+li {
+    list-style: none;
+    
+    margin: 15px;
+    background-color: rgba(255, 0, 0, 0);
+    padding: 1px;
+}
+
+.card {
+       
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 15px;
+    border: white solid 8px;
+    background-color: gray;
+    
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    border-radius: 15px;
+    margin-top: 25%;
+}
+
+h3 {
+    font-size: small;
+    font-family: sans-serif;
+}
+
+.name {
+    position: absolute;
+    background-color: beige;
+}
+
+#icon {
+    width: 80%;
+    height: 80%;
+}
+
+.name_prop {
+    position: relative;
+    background-color: beige;
+    
+}
